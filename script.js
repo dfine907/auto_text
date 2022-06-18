@@ -24,6 +24,5 @@ speedElement.addEventListener("input", (eventObj) => {
 });
 
 stop.addEventListener('click', () => {
-   console.log("Stop Clicked")
+  console.log("You clicked Stop");
 })
-// Event.stopPropagation()
