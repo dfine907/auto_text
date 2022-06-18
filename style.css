@@ -19,7 +19,7 @@ body {
 div {
     background: rgba(0,0,0,0.1);
     position: absolute;
-    bottom: 50px;
+    bottom: 150px;
     padding: 12px 22px;
     font-size: 18px;
     border-radius: 3px;
@@ -41,12 +41,15 @@ input:focus{
    box-shadow: 2px 2px 9px 2px #000000;
 }
 
-stop {
-    background: red;
+.stop {
+    background-color: red;
     position: absolute;
-    bottom: 25px;
-    padding: 12px 22px;
-    font-size: 18px;
-    border-radius: 3px;
-
+    text-align: center;
+    margin: auto;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    bottom: 35px;
+    font-size: 15px;
+    cursor: pointer;
 }
